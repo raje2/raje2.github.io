@@ -12,7 +12,7 @@
 
 /* Smooth scroll */
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
 }
 
 
@@ -513,7 +513,7 @@ html{
     width: 56%;
 }
 
-/* Team section styling */
+/* project section styling */
 
 #teams{
     color: #A9ADB8;
@@ -590,7 +590,15 @@ html{
     border: 2px solid #07080B;
     transition: all 0.3s ease;
 }
-
+.pro_button{
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 13px;
+}
 
 /* Contact Me Section */
 
