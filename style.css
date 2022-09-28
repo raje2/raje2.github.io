@@ -809,11 +809,11 @@ nav .fa-solid{
         color: #fff;
     }
     .showcase-text .text-1{
-        font-size: 22px;
+        font-size: 25px;
         color: black;
     }
     .showcase-text .text-2{
-        font-size: 30px;
+        font-size: 30hggitpx;
         font-weight: 700;
         color: black;
     }
@@ -831,7 +831,7 @@ nav .fa-solid{
         height: 50%;
         /* overflow: hidden; */
         margin-top: 70px;
-        margin-bottom: 250px;
+        margin-bottom: 260px;
         margin-right: 26px;
         /* border-radius: 100px; */
     }
