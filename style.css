@@ -970,6 +970,18 @@ nav .fa-solid{
     width: 300px;
 }
 
+/* github secttion start here */
+.git_box{
+    background-color: white ;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.git_img{
+    width: 100%;
+    height: 90%;
+    margin-top: 5vh;
+}
 
 /* project section start here */
 
