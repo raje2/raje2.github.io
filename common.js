@@ -248,7 +248,12 @@ $(document).ready(function () {
 
   let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
+  function contshow5(){
+    window.open(href="https://drive.google.com/uc?export=download&id=1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg");
+    
+  }
 
+  let my_cont_5=document.querySelector(".serv-content1").addEventListener("click",contshow5)
 
   function Live11(){
     window.open('https://github.com/raje2/TheTeam_Monster_FirstPost', '_blank');

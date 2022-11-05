@@ -117,7 +117,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: rgb(71, 255, 80);
+  color: #00827F;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -142,7 +142,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(71, 255, 80);
+  background: #00827F;
 }
 .navbar .max-width {
   display: flex;
@@ -156,7 +156,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color: rgb(71, 255, 80);
+  color: #00827F;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -175,7 +175,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: rgb(71, 255, 80);
+  color: #00827F;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -199,7 +199,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: rgb(71, 255, 80);
+  color: #00827F;
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -219,10 +219,12 @@ section .title::after {
 }
 
 /* home section styling */
+
 .home {
   display: flex;
-  background-image: url("./src/javawall.webp") no-repeat center;
-  background-color: #111;
+  /* background-color: #111; */
+  background-image: url("./src/bg2.jpg") ;
+  background-position: fixed ;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -250,12 +252,12 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(71, 255, 80);
+  color: #00827F;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(71, 255, 80);
+  background: #00827F;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
@@ -266,7 +268,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: rgb(71, 255, 80);
+  color: #00827F;
   background: none;
 }
 
@@ -301,6 +303,38 @@ width: 50%; */
 
 /* services section styling */
 
+
+.serv-content1{
+   height: 160px;
+   width: 160px;
+   margin: auto;
+   border: red 1px solid;
+   cursor: pointer;
+   margin-top: -40px;
+   border-radius: 50%;
+}
+.res_png{
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
+   /* position: fixed; */
+}
+.services1{
+  color: #fff;
+  background: #111;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+}
+.services1 .title::before{
+  background: #fff;
+}
+/* .res_png{
+  height: 20%;
+  width: 60%;
+  border-radius: 40%;
+} */
+
 .services,
 .project {
   color: #fff;
@@ -327,7 +361,7 @@ width: 50%; */
   transition: all 0.3s ease;
 }
 .services .serv-content .card:hover {
-  background: rgb(71, 255, 80);
+  background: #00827F;
   color: #555;
   /* change*/
 }
@@ -386,7 +420,7 @@ width: 50%; */
 #resume-btn{
   width: 150px;
   margin-top: 1.2rem;
-  border: 1px solid rgb(71, 255, 80);
+  border: 1px solid #00827F;
   background-color:transparent;
   color: #fff;
   text-align: center;
@@ -394,7 +428,7 @@ width: 50%; */
 }
 #resume-btn:hover{
   cursor: pointer;
-  background-color:rgb(71, 255, 80) ;
+  background-color:#00827F ;
   color: #000;
   transition: 2s;
 }
@@ -450,7 +484,7 @@ width: 50%; */
 }
 .skill-1>img:hover{
   cursor:pointer;
-  background-color:rgb(71, 255, 80); 
+  background-color:#00827F; 
   border:none;
 }
 .skill-2{
@@ -475,7 +509,7 @@ width: 50%; */
 
 .skill-2:hover{
   cursor: pointer;
-  border: 3px solid rgb(71, 255, 80);
+  border: 3px solid #00827F;
 }
 .soft{
   margin-top: 2rem;
@@ -597,7 +631,7 @@ width: 50%; */
 width: 30%;
 height: 25%;
 margin-top: 2%;
-border: 1px solid rgb(71, 255, 80);
+border: 1px solid #00827F;
 background-color:transparent;
 color: #fff;
 text-align: center;
@@ -610,7 +644,7 @@ padding: 2%;
 }
 .resume-btn:hover{
 cursor: pointer;
-background-color:rgb(71, 255, 80) ;
+background-color:#00827F ;
 color: #000;
 transition: 2s;
 }
@@ -646,7 +680,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: rgb(71, 255, 80);
+  color: #00827F;
   text-decoration: none;
 }
 footer span a:hover {
@@ -670,6 +704,7 @@ footer span a:hover {
   margin-top: 3%;
   padding: 1.5%;
   background-color: #000;
+  border-radius: 30px;
 
 }
 .cont-box-1{
@@ -808,7 +843,7 @@ footer span a:hover {
 }
 .skills-box:hover {
     /* background-color: #02225a; */
-   background-color: rgb(2, 166, 70);
+   background-color: #00827F;
 }
 
 .skills-box{
