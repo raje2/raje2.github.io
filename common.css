@@ -526,7 +526,10 @@ width: 50%; */
   overflow: hidden;
   transition: all 0.3s ease;
 }
-
+.pr1g{
+  width: 40px;
+  height: 40px;
+}
 .pro-info
 {
   padding: 1rem 0 1rem 0;

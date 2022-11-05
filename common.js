@@ -248,44 +248,55 @@ $(document).ready(function () {
 
   let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
-  function contshow5(){
-    window.open(href="https://drive.google.com/uc?export=download&id=1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg");
+  
+
+
+
+
+//   // function Live11(){
+//   //    window.open('https://github.com/raje2/TheTeam_Monster_FirstPost', '_blank');
     
-  }
-  let my_cont_5=document.querySelector(".serv-content1").addEventListener("click",contshow5)
+//   // }
+//   // let pr1g=document.querySelector(".pr1g").addEventListener("click",Live11)
 
-  function Live11(){
-    window.open('https://github.com/raje2/TheTeam_Monster_FirstPost', '_blank');
-  }
-  let pr1g=document.querySelector(".pr1g").addEventListener("click",Live11)
+// //   function listFunction(){
+// //     window.location.href="https://github.com/raje2/TheTeam_Monster_FirstPost"
+// // }
 
-  function Live12(){
-    window.open('https://heroic-cucurucho-c5bc21.netlify.app/', '_blank');
-  }
-  let pr1l=document.querySelector(".pr1l").addEventListener("click",Live12)
+// //   document.querySelector(".pr1g").addEventListener("click", listFunction);
+//   // document.querySelector("#anc1").addEventListener("click", signFunction);
+  
+
+  
 
 
-  function Live21(){
-    window.open('https://github.com/raje2/YOUTUBE_PROJECT', '_blank');
-  }
-  let pr2g=document.querySelector(".pr2g").addEventListener("click",Live21)
+//   function Live12(){
+//     window.open('https://heroic-cucurucho-c5bc21.netlify.app/', '_blank');
+//   }
+//   let pr1l=document.querySelector(".pr1l").addEventListener("click",Live12)
 
-  function Live22(){
-    window.open('https://bejewelled-starlight-d67115.netlify.app/', '_blank');
-  }
-  let pr2l=document.querySelector(".pr2l").addEventListener("click",Live22)
+
+//   function Live21(){
+//     window.open('https://github.com/raje2/YOUTUBE_PROJECT', '_blank');
+//   }
+//   let pr2g=document.querySelector(".pr2g").addEventListener("click",Live21)
+
+//   function Live22(){
+//     window.open('https://bejewelled-starlight-d67115.netlify.app/', '_blank');
+//   }
+//   let pr2l=document.querySelector(".pr2l").addEventListener("click",Live22)
 
 
   
-  function Live31(){
-    window.open('https://github.com/thecodervaibhav/Team-App-Monsters.git', '_blank');
-  }
-  let pr3g=document.querySelector(".pr3g").addEventListener("click",Live31)
+//   function Live31(){
+//     window.open('https://github.com/thecodervaibhav/Team-App-Monsters.git', '_blank');
+//   }
+//   let pr3g=document.querySelector(".pr3g").addEventListener("click",Live31)
 
-  function Live32(){
-    window.open('https://reliable-llama-c038f5.netlify.app/', '_blank');
-  }
-  let pr3l=document.querySelector(".pr3l").addEventListener("click",Live32)
+//   function Live32(){
+//     window.open('https://reliable-llama-c038f5.netlify.app/', '_blank');
+//   }
+//   let pr3l=document.querySelector(".pr3l").addEventListener("click",Live32)
   
 
 
