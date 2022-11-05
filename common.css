@@ -908,7 +908,7 @@ footer span a:hover {
   .navbar .menu {
     position: fixed;
     /* border: 1px solid red; */
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     /* margin: auto; */
     left: -100%;
@@ -1006,7 +1006,7 @@ footer span a:hover {
     width: 80%;
   }
   .my-cont>.cont-box-1{
-    width: 100%;
+    width: 80%;
     display: flex;
     margin: 0 auto;
     margin-top: 3%;
@@ -1158,7 +1158,7 @@ footer span a:hover {
     width: 100%;
   }
   .my-cont>.cont-box-1{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 3%;
     padding: 1.5%;
