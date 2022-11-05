@@ -252,7 +252,6 @@ $(document).ready(function () {
     window.open(href="https://drive.google.com/uc?export=download&id=1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg");
     
   }
-
   let my_cont_5=document.querySelector(".serv-content1").addEventListener("click",contshow5)
 
   function Live11(){

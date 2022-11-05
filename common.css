@@ -125,7 +125,7 @@ section .title::after {
 
 .pro-info>.tech-stach{
 
-  background-color: #000;
+  background-color: #00827F;
   color: #fff;
   padding: 3px;
 
@@ -181,7 +181,7 @@ section .title::after {
   color: #fff;
 }
 .navbar.sticky .menu li a{
-  color: #000;
+  color: #fff;
 }
 /* menu btn styling */
 .menu-btn {
@@ -223,7 +223,7 @@ section .title::after {
 .home {
   display: flex;
   /* background-color: #111; */
-  background-image: url("./src/bg2.jpg") ;
+  background-image: url("./src/bg2.jpg")  ;
   background-position: fixed ;
   height: 100vh;
   color: #fff;
@@ -707,6 +707,9 @@ footer span a:hover {
   border-radius: 30px;
 
 }
+.my-cont>.cont-box-1:hover{
+  background-color: #00827F;
+}
 .cont-box-1{
   transform: translateX(400%);
   transition: transform 1000ms ease-in-out;
@@ -899,14 +902,16 @@ footer span a:hover {
   }
   .navbar .menu {
     position: fixed;
-    height: 100vh;
+    border: 1px solid red;
+    height: 90vh;
     width: 100%;
+    /* margin: auto; */
     left: -100%;
     top: 0;
     background: #111;
     text-align: center;
     padding-top: 80px;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
   }
   .navbar .menu.active {
     left: 0;
@@ -918,6 +923,7 @@ footer span a:hover {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+    /* position: sticky; */
   }
   .max-width {
     max-width: 930px;
@@ -963,7 +969,7 @@ footer span a:hover {
   .project-main{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     /* border: 2px solid rgb(71, 255, 80); */
     padding: 10px;
     gap: 1rem ;
@@ -977,7 +983,7 @@ footer span a:hover {
     /* height: 100%; */
   }
   .inside-2{
-    width: 100%;
+    width: 80%;
   }
   .inside-2>div>h2{
     font-size: 1rem;
@@ -999,6 +1005,9 @@ footer span a:hover {
     padding: 1.5%;
     background-color: #000;
   
+  }
+  .navbar.sticky .menu li a:hover {
+    color: #00827F;
   }
 
     .github-stat {
@@ -1048,9 +1057,9 @@ footer span a:hover {
   margin-top: -30%;
 } */
 
-.skills-content-stat{
+/* .skills-content-stat{
 
-}
+} */
 
 }
 
@@ -1070,6 +1079,9 @@ footer span a:hover {
   .contact .right form .fields {
     flex-direction: column;
   }
+  .navbar.sticky .menu li a:hover {
+    color: #00827F;
+  }
   .contact .right form .name,
   .contact .right form .email {
     margin: 0;
@@ -1088,8 +1100,14 @@ footer span a:hover {
   .project-main{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
   }
+  /* .inside-2{
+    width: 70%;
+    margin: auto;
+  } */
   .github-stat {
       width: 100%;
       font-size: 8px;

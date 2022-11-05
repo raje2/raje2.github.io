@@ -13,7 +13,7 @@ body #skills1>#skills-container1>div {
 }
 
 #skills1 h1 {
-    color: rgb(71, 255, 80);
+    color: #00827F;
     text-align: center;
 }
 
@@ -42,8 +42,8 @@ body #skills1>#skills-container1>div {
 
 #skills1>#skills-container1>div:hover {
     transform: scale(1.05);
-    background-color: rgb(71, 255, 80);
-    color: rgb(230, 73, 16);
+    background-color: #00827F;
+    color: white;
 }
 
 #skills1>#skills-container1>div>img {
