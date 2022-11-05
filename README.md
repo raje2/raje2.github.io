@@ -15,7 +15,7 @@
 <h3 align="left"><a href="https://raje2.github.io" target="_blank"> Protofolio ( https://raje2.github.io )</a></h3>
 
 <h2>Responsibilities<h2>
-
+<p>Created the total protofolio and the function by using Tech Stack like HTML, CSS, JS. In this project i used JS, CSS for the animation part of the protofolio which gives my protofolio a unique look.</p>
 <h4> NavBar </h4>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px" >
 
