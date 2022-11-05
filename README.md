@@ -23,14 +23,14 @@
   
  </div>
 
-<h4> Skills </h4>
+<h4> Skills Part</h4>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px" >
 
   <img style="width: 100%;" src="https://miro.medium.com/max/720/1*RXyS6UCeGv7i5Hj-NEUIyA.png" alt="">
   
  </div>
  
- <h4> Footer Part </h4>
+ <h4> Education and Projects Part </h4>
  <div style="display: grid; grid-template-columns: repeat(2,1fr); gap:20px" >
 
   <img style="width: 100%;" src="https://miro.medium.com/max/720/1*NCm8NrLwFgigxwYpN1sETg.png" alt="">
