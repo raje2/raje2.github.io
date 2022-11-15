@@ -242,7 +242,17 @@ $(document).ready(function () {
 
 
   function contshow4(){
-    window.open(href="./src/Rajesh-Pradhan-Resume.pdf");
+    // window.open(href="./src/Rajesh-Pradhan-Resume.pdf");
+
+    let file = 'src/Rajesh-Pradhan-Resume.pdf'
+
+            let dwnld =  document.createElement('a');
+            dwnld.href = file;
+            dwnld.download = file.substring(file.lastIndexOf('/') + 1);
+            dwnld.click();
+            
+             url = "https://drive.google.com/file/d/1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg/view?usp=share_link";
+             window.open(url);
     
   }
 
