@@ -241,23 +241,27 @@ $(document).ready(function () {
   let my_cont_3=document.querySelector(".cont-box-e").addEventListener("click",contshow3)
 
 
-  function contshow4(){
-    // window.open(href="./src/Rajesh-Pradhan-Resume.pdf");
+  // function contshow4(){
+  //   // window.open(href="./src/Rajesh-Pradhan-Resume.pdf");
 
-    let file = 'src/Rajesh-Pradhan-Resume.pdf'
+  //         let file = 'src/Rajesh-Pradhan-Resume.pdf';
 
-            let dwnld =  document.createElement('a');
-            dwnld.href = file;
-            dwnld.download = file.substring(file.lastIndexOf('/') + 1);
-            dwnld.click();
-            
-             url = "https://drive.google.com/file/d/1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg/view?usp=share_link";
-             window.open(url);
+  //           let dwnld =  document.createElement('a');
+  //           dwnld.href = file;
+  //           dwnld.download = file.substring(file.lastIndexOf('/') + 1);
+  //           dwnld.click();
+
+  //            url = "https://drive.google.com/file/d/1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg/view?usp=share_link";
+  //            window.open(url);
     
+  // }
+
+  // let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
+
+  function downloadResume(){
+    url = "https://drive.google.com/file/d/1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg/view?usp=share_link";
+         window.open(url);
   }
-
-  let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
-
   
 
 
