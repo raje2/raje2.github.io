@@ -259,7 +259,7 @@ $(document).ready(function () {
   // let my_cont_4=document.querySelector(".cont-box-f").addEventListener("click",contshow4)
 
   function downloadResume(){
-    url = "https://drive.google.com/file/d/1iG4UeTVE5xDisbkM1MOIzS1s2OiObYCg/view?usp=share_link";
+    url = "https://drive.google.com/file/d/1G0EvcCSoCNj6TmynNaWmSJnZ6Z0tB6Vo/view?usp=sharing";
          window.open(url);
   }
   
