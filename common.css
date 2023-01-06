@@ -117,7 +117,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #00827F;
+  color: rgb(236, 176, 58);
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -125,7 +125,7 @@ section .title::after {
 
 .pro-info>.tech-stach{
 
-  background-color: #00827F;
+  background-color: rgb(236, 176, 58);
   color: #fff;
   padding: 3px;
 
@@ -142,7 +142,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #00827F;
+  background: rgb(236, 176, 58);
 }
 .navbar .max-width {
   display: flex;
@@ -156,7 +156,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-  color: #00827F;
+  color: rgb(236, 176, 58);
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -175,7 +175,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #00827F;
+  color: rgb(236, 176, 58);
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -199,7 +199,7 @@ section .title::after {
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: #00827F;
+  color: rgb(236, 176, 58);
   z-index: 9999;
   font-size: 30px;
   border-radius: 6px;
@@ -252,12 +252,12 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: #00827F;
+  color: rgb(236, 176, 58);
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: #00827F;
+  background: rgb(236, 176, 58);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
@@ -268,7 +268,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: #00827F;
+  color: rgb(236, 176, 58);
   background: none;
 }
 
@@ -363,7 +363,7 @@ width: 50%; */
   
 }
 .services .serv-content .card:hover {
-  background: #00827F;
+  background: rgb(236, 176, 58);
   color: #fff;
   /* change*/
 }
@@ -419,10 +419,12 @@ width: 50%; */
   transition: 0.9s;
 }
 
+/* second color start here */
+
 #resume-btn{
   width: 150px;
   margin-top: 1.2rem;
-  border: 1px solid #00827F;
+  border: 1px solid rgb(236, 176, 58);
   background-color:transparent;
   color: #fff;
   text-align: center;
@@ -430,7 +432,7 @@ width: 50%; */
 }
 #resume-btn:hover{
   cursor: pointer;
-  background-color:#00827F ;
+  background-color:rgb(236, 176, 58) ;
   color: #000;
   transition: 2s;
 }
@@ -486,7 +488,7 @@ width: 50%; */
 }
 .skill-1>img:hover{
   cursor:pointer;
-  background-color:#00827F; 
+  background-color:rgb(236, 176, 58); 
   border:none;
 }
 .skill-2{
@@ -511,7 +513,7 @@ width: 50%; */
 
 .skill-2:hover{
   cursor: pointer;
-  border: 3px solid #00827F;
+  border: 3px solid rgb(236, 176, 58);
 }
 .soft{
   margin-top: 2rem;
@@ -636,7 +638,7 @@ width: 50%; */
 width: 30%;
 height: 25%;
 margin-top: 2%;
-border: 1px solid #00827F;
+border: 1px solid rgb(236, 176, 58);
 background-color:transparent;
 color: #fff;
 text-align: center;
@@ -649,7 +651,7 @@ padding: 2%;
 }
 .resume-btn:hover{
 cursor: pointer;
-background-color:#00827F ;
+background-color:rgb(236, 176, 58) ;
 color: #000;
 transition: 2s;
 }
@@ -685,7 +687,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: #00827F;
+  color: rgb(236, 176, 58);
   text-decoration: none;
 }
 footer span a:hover {
@@ -713,7 +715,7 @@ footer span a:hover {
 
 }
 .my-cont>.cont-box-1:hover{
-  background-color: #00827F;
+  background-color: rgb(236, 176, 58);
 }
 .cont-box-1{
   transform: translateX(400%);
@@ -851,7 +853,7 @@ footer span a:hover {
 }
 .skills-box:hover {
     /* background-color: #02225a; */
-   background-color: #00827F;
+   background-color: rgb(236, 176, 58);
 }
 
 .skills-box{
@@ -1015,7 +1017,7 @@ footer span a:hover {
   
   }
   .navbar.sticky .menu li a:hover {
-    color: #00827F;
+    color: rgb(236, 176, 58);
   }
 
     .github-stat {
@@ -1088,7 +1090,7 @@ footer span a:hover {
     flex-direction: column;
   }
   .navbar.sticky .menu li a:hover {
-    color: #00827F;
+    color: rgb(236, 176, 58);
   }
   .contact .right form .name,
   .contact .right form .email {
