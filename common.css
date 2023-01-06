@@ -222,8 +222,8 @@ section .title::after {
 
 .home {
   display: flex;
-  /* background-color: #111; */
-  background-image: url("./src/bg3.avif")  ;
+   /* background-color: #111;  */
+  background-image: url("./src/pg6.jpg");
   background-position: fixed ;
   height: 100vh;
   color: #fff;
